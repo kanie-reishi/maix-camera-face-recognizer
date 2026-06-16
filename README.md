@@ -53,8 +53,6 @@ An edge-first smart door access system built around **MaixCAM** (integrated AI c
 
 Hệ thống bao gồm **một module MaixCAM** (camera AI + màn hình hiển thị) làm trung tâm điều khiển. Tất cả cảm biến và cơ cấu chấp hành kết nối **trực tiếp** vào MaixCAM qua UART / I2C / GPIO.
 
-**Không sử dụng ESP32** — MaixCAM là edge hub duy nhất.
-
 ```mermaid
 flowchart TB
   subgraph maixcam [MaixCAM Edge Hub]
